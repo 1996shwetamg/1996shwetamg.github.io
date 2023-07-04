@@ -63,22 +63,32 @@ document.getElementById("resume-link-1").addEventListener("click", () => {
     "./images/css.png",
     "./images/js.png",
     "./images/java.png",
-    "./images/mongodb.png",
-    "./images/sql.jpg",
+    "./images/MySql_Logo.png",
     "./images/netlify.png",
     "./images/aws.png",
     "./images/git.png",
+    "./images/Hibernate_Logo.png",
+    "./images/Maven_Logo.png",
+    "./images/dsa_logo.png",
+    "./images/Spring_Logo.png",
+    "./images/SpringBoot_Logo.png",
+    "./images/sts_logo.png"
   ];
   let skill_name = [
     "HTML",
     "CSS",
     "JavaScript",
     "JAVA",
-    "MONGODB",
-    "SQL",
+    "MySQL",
     "Netlify",
     "AWS",
     "GIT",
+    "HIBERNATE",
+    "MAVEN",
+    "DataStructure and Algorithms",
+    "SPRING",
+    "SPRINGBOOT",
+    "STS"
   ];
   let count = 0;
   AppendSkills = (arr) => {
